@@ -4,6 +4,10 @@ apply plugin: 'cpp-application'
 apply from: rootProject.file("shared-gradle/platform.gradle")
 
 application {
+  dependencies {
+    implementation project(":RobotCore")
+  }
+
   source.from file('src/cpp')
   privateHeaders.from file('src/include')
 }

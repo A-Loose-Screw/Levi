@@ -1,5 +1,5 @@
 
 include 'Levi'
-include 'RobotCore:RobotCore'
+include 'RobotCore'
 
 rootProject.name = 'Levi'
