@@ -1,4 +1,4 @@
 [submodule "RobotCore"]
 	path = RobotCore
-	url = https://github.com/CJBuchel/RobotCore.git
+	url = https://github.com/A-Loose-Screw/RobotCore.git
   branch = master
