@@ -8,14 +8,12 @@ jobs:
   steps:
     - template: 'azure-steps.yml'
 
-jobs:
 - job: mac
   pool:
     vmImage: 'macOS-latest '
   steps:
     - template: 'azure-steps.yml'
 
-jobs:
 - job: windows
   pool:
     vmImage: 'windows-latest'
