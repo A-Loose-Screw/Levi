@@ -5,6 +5,14 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: CmdLine@2
+  inputs:
+   workingDirectory: ''
+   script: 'git submodule update --init'
+- task: CmdLine@2
+  inputs:
+   workingDirectory: ''
+   script: 'git submodule update --remote -f'
 - task: Gradle@2
   inputs:
     workingDirectory: ''
