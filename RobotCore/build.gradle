@@ -1,0 +1,10 @@
+import static org.apache.tools.ant.taskdefs.condition.Os.*
+apply plugin: 'cpp-library'
+
+apply from: rootProject.file('shared-gradle/platform.gradle')
+
+library {
+  linkage = [Linkage.STATIC]
+  source.from file("src")
+  publicHeaders.from file("src")
+}
