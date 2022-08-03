@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "TerminalBlock_Wuerth")(type "KiCad")(uri "${KIPRJMOD}/lib/TerminalBlock_Wuerth.pretty")(options "")(descr ""))
+  (lib (name "diode")(type "KiCad")(uri "${KIPRJMOD}/lib/diode.pretty")(options "")(descr ""))
+  (lib (name "Schotty-Diode-THT")(type "KiCad")(uri "${KIPRJMOD}/lib/Schotty-Diode-THT.pretty")(options "")(descr ""))
+)
