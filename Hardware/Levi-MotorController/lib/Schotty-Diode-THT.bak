@@ -6,35 +6,35 @@
     (property "Value" "APT100S20BG" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "Schotty-Diode-THT:APT100S20BG" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.tme.com/Document/2366666e4429ba46a4044e8ae195d734/APT100S20BG.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "APT100S20BG_0_1"
       (polyline
         (pts
-          (xy -1.27 -5.08)
-          (xy -1.27 -7.62)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -6.35)
           (xy -1.27 -6.35)
+          (xy 1.27 -6.35)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 1.27 -5.08)
           (xy 1.27 -7.62)
-          (xy -1.27 -6.35)
           (xy 1.27 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -7.62)
+          (xy -1.27 -5.08)
+          (xy 1.27 -6.35)
+          (xy -1.27 -7.62)
         )
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
