@@ -1,0 +1,16 @@
+.APT100S20BG :1 ;120 A, 200 V, SILICON, RECTIFIER DIODE, TO-247
+TO1087P531X1588X2596-2P
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN APT100S20BG
+~!Mouser Part Number (494-APT100S20BG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/APT100S20BG?qs=6jAvgNDGUA9qUL3cGTonuQ%3D%3D)
+~!Manufacturer_Name (Microsemi Corporation)
+~!Manufacturer_Part_Number (APT100S20BG)
+~!Link Datasheet (https://www.digikey.com/product-detail/en/microchip-technology/APT100S20BG/APT100S20BG-ND/1494212)
+~!Height (5.31mm)
+~!3D_Model (APT100S20BG)
+APT100S20BG
+1.1!U 2.1!U 
