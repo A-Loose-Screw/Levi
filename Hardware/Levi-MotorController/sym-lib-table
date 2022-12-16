@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "APT100S20BG")(type "KiCad")(uri "${PROJECT_SYMBOL_DIR}/APT100S20BG.kicad_sym")(options "")(descr ""))
+)
