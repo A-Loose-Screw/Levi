@@ -10,6 +10,14 @@ application {
 
   source.from file('src/cpp')
   privateHeaders.from file('src/include')
+
+  binaries.configureEach {
+    if (toolChain instanceof Gcc || toolChain instanceof Clang) {
+      compileTask.get().compilerArgs = ["-std=c++17", "-lpthread", "-g"]
+    } else if (toolChain instanceof VisualCpp) {
+      compileTask.get().compilerArgs = ["/std:c++17"]
+    }
+  }
 }
 
 task sim(type:Exec) {
@@ -20,7 +28,7 @@ task sim(type:Exec) {
   if (isFamily(FAMILY_UNIX) || isFamily(FAMILY_MAC)) {
     commandLine "./${project.name}"
   } else if (isFamily(FAMILY_WINDOWS)) {
-    commandLine "cmd", "/c" "./${project.name}.exe"
+    commandLine "cmd", "/c", "${project.name}.exe"
   } else {
     ant.fail("Could not determin os family")
   }

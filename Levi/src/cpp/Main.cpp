@@ -9,6 +9,6 @@
  * 
  */
 
+#include "Entry.h" // Don't touch this line
 #include "Robot.h"
-#include "RobotCore.h"
 RBC_ROBOT_MAIN(Robot);

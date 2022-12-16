@@ -1,3 +1,6 @@
+#ifndef ROBOT_H
+#define ROBOT_H
+
 #include "RobotCore.h"
 
 class Robot : public RBC::RobotBase {
@@ -15,3 +18,5 @@ class Robot : public RBC::RobotBase {
  private:
 
 };
+
+#endif
