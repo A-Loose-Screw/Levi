@@ -1,7 +1,7 @@
 steps:
   # Init
-  - script: git submodule update --init
-  - script: git submodule update --remote -f
+  - script: git submodule update --init --recursive
+  - script: git submodule update --remote --recursive -f
 
   - task: 'Gradle@2'
     inputs:

@@ -1,5 +1,9 @@
 
-include 'Levi'
-include 'RobotCore'
+rootDir.eachDirRecurse { dir ->
+  if (new File(dir, 'build.gradle').exists()) {
+    include dir.name
+    project(":${dir.name}").projectDir = dir
+  }
+}
 
 rootProject.name = 'Levi'
