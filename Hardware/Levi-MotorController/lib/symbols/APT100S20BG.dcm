@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP APT100S20BG
-D 120 A, 200 V, SILICON, RECTIFIER DIODE, TO-247
-K
-F https://www.digikey.com/product-detail/en/microchip-technology/APT100S20BG/APT100S20BG-ND/1494212
-$ENDCMP
-#
-#End Doc Library
